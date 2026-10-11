@@ -8,6 +8,10 @@ dotenv.config();
 app.get('/', (req, res) => {
     res.send('SEVER IS RUNNING')
 });
+app.get('/movies', (req, res) => {
+    res.send('WATCH THE LATEST MOVIES')
+});
+
 
 
 
